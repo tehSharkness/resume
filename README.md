@@ -25,13 +25,14 @@ directory.
 
 The following packages are required to generate the document:
 
+* bazel
 * texlive
 * texlive-latex-extra
 * texlive-fonts-extra
 
 Build the .pdf using the following command:
 
-`pdflatex resume.tex`
+`bazel run :generate_resume`
 
 # Helper Sections
 
