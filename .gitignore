@@ -1,3 +1,8 @@
+bazel-bin
+bazel-out
+bazel-resume
+bazel-testlogs
+
 *.aux
 *.log
 *.out
